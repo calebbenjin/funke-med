@@ -16,9 +16,7 @@ export default function Navbar() {
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <h1 className="font-bold text-white lg:text-2xl text-lg">
-              FunKe-Med
-            </h1>
+            <h1 className="font-bold text-white lg:text-2xl text-lg">Cohexa</h1>
           </Link>
         </div>
         <div className="flex lg:hidden">

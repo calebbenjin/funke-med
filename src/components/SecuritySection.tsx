@@ -7,9 +7,9 @@ import Image from "next/image";
 
 const SecuritySection = () => {
   return (
-    <section>
+    <section className="pb-20">
       <MaxWidthWrapper>
-        <div className="text-center mx-auto mt-10">
+        <div className="text-center mx-auto my-10">
           <h1 className="text-3xl tracking-tight mt-4 text-zinc-900 lg:text-5xl font-extrabold md:text-4xl ">
             Safety & Technical Regulations
           </h1>

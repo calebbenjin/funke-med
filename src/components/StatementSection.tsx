@@ -6,7 +6,7 @@ const StatementSection = () => {
     <section className="lg:h-screen h-ful">
       <MaxWidthWrapper className="pb-40">
         <div className="text-center mx-auto mt-20">
-          <h1 className="text-3xl tracking-tight text-zinc-900 lg:text-5xl md:text-4xl ">
+          <h1 className="text-3xl tracking-tight mt-4 text-zinc-900 lg:text-5xl font-extrabold md:text-4xl ">
             Problem statement
           </h1>
         </div>

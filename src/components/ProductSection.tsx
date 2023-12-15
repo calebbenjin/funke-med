@@ -21,7 +21,7 @@ const ProductSection = () => {
       <section className=" bg-zinc-900">
         <MaxWidthWrapper>
           <div className="text-center mx-auto pt-10">
-            <h1 className="text-3xl tracking-tight text-orange-500 lg:text-5xl md:text-4xl ">
+            <h1 className="text-3xl tracking-tight mt-4 text-zinc-50 lg:text-5xl font-extrabold md:text-4xl ">
               What our product does
             </h1>
           </div>
