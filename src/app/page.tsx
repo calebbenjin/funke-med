@@ -5,16 +5,18 @@ import ProductSection from "@/components/ProductSection";
 import MissionSection from "@/components/MissionSection";
 import TeamSection from "@/components/TeamSection";
 import SecuritySection from "@/components/SecuritySection";
+import ScrollSection from "@/components/ScrollSection";
 
 export default function Home() {
   return (
     <main>
       <HeroSection />
-      <AnimationSection />
+      <ScrollSection />
+      {/* <AnimationSection /> */}
       <StatementSection />
-      <ProductSection />
-      <MissionSection />
-      <TeamSection />
+      {/* <ProductSection /> Remove */}
+      {/* <MissionSection /> Go to about page */}
+      {/* <TeamSection /> Go to about page */}
       <SecuritySection />
     </main>
   );
