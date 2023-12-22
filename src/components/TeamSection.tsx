@@ -6,7 +6,7 @@ import { ImQuotesLeft } from "react-icons/im";
 
 const TeamSection = () => {
   return (
-    <section className="teambg-gradient py-40">
+    <section className="teambg-gradient pt-40 pb-10">
       <MaxWidthWrapper>
         <div className="text-left mx-auto">
           <p className="text-2xl text-orange-500 ">Our Leadership</p>
@@ -16,7 +16,7 @@ const TeamSection = () => {
             Meet the team behind COHEXA.
           </h1>
         </div>
-        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 lg:py-40 py-20">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 lg:pb-20 pb-20">
           <div data-aos="zoom-out-down" className="team-card">
             <div className="relative overflow-hidden border-4 border-zinc-800 rounded-2xl">
               <Image src={funkeImg} alt="funke-alabi" />
