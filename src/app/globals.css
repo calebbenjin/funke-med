@@ -11,8 +11,7 @@
 }
 
 .bg-primary {
-  background: #000000;
-  /* background: #483055; */
+  background: #fff;
 }
 
 
@@ -94,7 +93,9 @@
   background: #bb99ce;
 }
 
-
+.hero-bg {
+  background: linear-gradient(45deg, rgb(72, 48, 85)  40%, rgb(93, 64, 109) 90%);
+}
 
 
 .card-one-bg {

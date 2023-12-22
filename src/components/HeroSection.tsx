@@ -5,10 +5,11 @@ import { Button, buttonVariants } from "./ui/button";
 import Image from "next/image";
 import heroImg1 from "/public/hero-web.webp";
 import { TypeAnimation } from "react-type-animation";
+import SeenSection from "./SeenSection";
 
 const Hero = () => {
   return (
-    <section className="lg:h-[90vh] pb-20 h-full bg-[--secondary] flex items-center justify-center relative">
+    <section className="lg:h-auto lg:pt-28 pt-28 h-full hero-bg flex items-center justify-center relative">
       <div className="box bg-[#6d3c86] lg:h-60 lg:w-60 h-40 w-40 rounded-full absolute lg:left-[-10rem] left-[-7rem] bottom-[-3rem] "></div>
       <MaxWidthWrapper>
         <div className="grid lg:grid-cols-2 md:grid-cols-1 grid-cols-1 items-center pt-10 sm:gap-20 gap-10">
@@ -32,7 +33,9 @@ const Hero = () => {
               The economic impact of burnout extends beyond the individual and
               organizational realms, affecting both turnover and productivity.
             </p>
-            <Button className="bg-[--accent] text-[--secondary] mt-8 py-6 px-8">Request for a demo</Button>
+            <Button className="bg-[#6d3c86] text-white mt-8 py-6 px-8">
+              Request for a demo
+            </Button>
           </div>
           <div className="hero-content flex items-center sm:justify-end justify-center sm:space-x-4 space-x-4">
             <Image
@@ -45,6 +48,7 @@ const Hero = () => {
             />
           </div>
         </div>
+        <SeenSection />
       </MaxWidthWrapper>
     </section>
   );

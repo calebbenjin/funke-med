@@ -6,11 +6,13 @@ import MissionSection from "@/components/MissionSection";
 import TeamSection from "@/components/TeamSection";
 import SecuritySection from "@/components/SecuritySection";
 import ScrollSection from "@/components/ScrollSection";
+import SeenSection from "@/components/SeenSection";
 
 export default function Home() {
   return (
     <main>
       <HeroSection />
+      {/* <SeenSection /> */}
       {/* <ScrollSection /> */}
       {/* <AnimationSection /> */}
       {/* <StatementSection /> */}
