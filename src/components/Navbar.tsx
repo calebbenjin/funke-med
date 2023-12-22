@@ -10,7 +10,7 @@ export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className=" p-6 bg-transparent fixed w-full top-0 z-50">
+    <header className=" p-6 bg-transparent fixed w-full top-0 z-10">
       <nav
         className="mx-auto nav-bg shadow-xl rounded-[8px] flex max-w-5xl items-center justify-between p-6 lg:px-8"
         aria-label="Global">
@@ -42,19 +42,14 @@ export default function Navbar() {
             Home
           </Link>
           <Link
-            href="/"
-            className="text-md leading-6 text-zinc-900 font-semibold">
-            How it works
-          </Link>
-          <Link
-            href="/"
+            href="#about-section"
             className="text-md leading-6 text-zinc-900 font-semibold">
             About
           </Link>
           <Link
-            href="/"
+            href="#contact-section"
             className="text-md leading-6 text-zinc-900 font-semibold">
-            Our Team
+            Contact us
           </Link>
         </Popover.Group>
       </nav>
@@ -64,7 +59,7 @@ export default function Navbar() {
         open={mobileMenuOpen}
         onClose={setMobileMenuOpen}>
         <div className="fixed inset-0 z-10" />
-        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-[--accent] px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-[--accent] px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <Link href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">CHOEXA</span>

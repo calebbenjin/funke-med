@@ -4,7 +4,7 @@ import { TypeAnimation } from "react-type-animation";
 
 const AboutSection = () => {
   return (
-    <section className="bg-gradient py-40 text-center">
+    <section id="about-section" className="bg-gradient py-40 text-center">
       <MaxWidthWrapper>
         <div className="text-center mx-auto pb-10">
           <h1

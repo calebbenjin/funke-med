@@ -12,6 +12,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import FutureSection from "@/components/FutureSection";
+import ContactSection from "@/components/ContactSection";
 
 export default function Home() {
   useEffect(() => {
@@ -28,6 +29,7 @@ export default function Home() {
       {/* <ProductSection /> Remove */}
       {/* <MissionSection /> Go to about page */}
       <TeamSection />
+      <ContactSection />
       <SecuritySection />
     </main>
   );

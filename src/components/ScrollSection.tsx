@@ -13,6 +13,8 @@ const ScrollSection = () => {
           <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-20">
             <div className="content flex items-center justify-center ">
               <h1
+                data-aos-delay="10"
+                data-aos-duration="500"
                 data-aos="fade-up-right"
                 className="text-white text-4xl font-semibold ">
                 Cohexa AI note dictation system is pivotal in meticulously
@@ -21,6 +23,8 @@ const ScrollSection = () => {
             </div>
             <div
               className="img rounded-[4rem] relative"
+              data-aos-delay="10"
+              data-aos-duration="200"
               data-aos="fade-up-left">
               <Image src={img1} alt="img" className="rounded-[4rem]" />
             </div>
@@ -31,9 +35,11 @@ const ScrollSection = () => {
         <MaxWidthWrapper className="flex items-center px-20 justify-center">
           <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-20">
             <div
+              data-aos-delay="10"
+              data-aos-duration="200"
               data-aos="fade-up-right"
               className="img rounded-[4rem] relative">
-              <Image src={img1} alt="img" className="rounded-[4rem]" />
+              <Image src={img2} alt="img" className="rounded-[4rem]" />
             </div>
             <div className="content flex items-center justify-center ">
               <h1
@@ -51,6 +57,8 @@ const ScrollSection = () => {
           <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1  gap-20">
             <div className="content flex items-center justify-center ">
               <h1
+                data-aos-delay="10"
+                data-aos-duration="200"
                 data-aos="fade-up-right"
                 className="text-white text-4xl font-semibold ">
                 Cohexa AI note dictation system is pivotal in meticulously
@@ -59,8 +67,10 @@ const ScrollSection = () => {
             </div>
             <div className="img rounded-[4rem] relative">
               <Image
+                data-aos-delay="10"
+                data-aos-duration="200"
                 data-aos="fade-up-right"
-                src={img1}
+                src={img3}
                 alt="img"
                 className="rounded-[4rem]"
               />

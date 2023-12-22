@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 .main-font {
   font-family: var(--font-montserrat);
 }
@@ -108,6 +112,13 @@
 
 .teambg-gradient {
   background: linear-gradient(to top, rgb(230, 197, 248) 40%, rgb(253, 248, 255) 90%);
+}
+
+.contact-bg {
+  background-image: linear-gradient(to top, rgb(72, 48, 85),
+        rgba(0, 0, 0, 0.598)), url('/kkkkk.png');
+    background-size: cover;
+    background-position: top;
 }
 
 
