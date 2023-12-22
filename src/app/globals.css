@@ -98,7 +98,12 @@
 }
 
 .bg-gradient {
-  background: linear-gradient(45deg, rgb(253, 248, 255)  40%, rgb(228, 177, 255) 90%);
+  background: linear-gradient(to top, rgb(253, 248, 255)  40%, rgb(228, 177, 255) 90%);
+}
+
+
+.teambg-gradient {
+  background: linear-gradient(to top, rgb(230, 197, 248) 40%, rgb(253, 248, 255) 90%);
 }
 
 

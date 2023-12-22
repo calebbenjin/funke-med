@@ -13,7 +13,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
-
 export default function Home() {
   useEffect(() => {
     AOS.init({ duration: 2000 });
@@ -28,7 +27,7 @@ export default function Home() {
       {/* <StatementSection /> */}
       {/* <ProductSection /> Remove */}
       {/* <MissionSection /> Go to about page */}
-      {/* <TeamSection /> Go to about page */}
+      <TeamSection />
       {/* <SecuritySection /> */}
     </main>
   );
