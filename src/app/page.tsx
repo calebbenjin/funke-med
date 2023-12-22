@@ -11,13 +11,13 @@ export default function Home() {
   return (
     <main>
       <HeroSection />
-      <ScrollSection />
+      {/* <ScrollSection /> */}
       {/* <AnimationSection /> */}
-      <StatementSection />
+      {/* <StatementSection /> */}
       {/* <ProductSection /> Remove */}
       {/* <MissionSection /> Go to about page */}
       {/* <TeamSection /> Go to about page */}
-      <SecuritySection />
+      {/* <SecuritySection /> */}
     </main>
   );
 }

@@ -10,7 +10,8 @@ const ScrollSection = () => {
     <div className="relative">
       <section className="bg-[--background] sticky top-0">
         <MaxWidthWrapper className="h-screen flex pt-20">
-          <h1 className="text-[--foreground] main-font text-4xl leading-normal ">
+          <h1></h1>
+          <h1 className="text-[--foreground] main-font text-2xl text-center leading-normal ">
             Cohexa stands out in the landscape of healthcare technology
             providers with our emphasis on ambient clinical recording. Our
             system seamlessly integrates spoken interactions into electronic
@@ -22,7 +23,7 @@ const ScrollSection = () => {
           </h1>
         </MaxWidthWrapper>
       </section>
-      <section className="bg-[--foreground] sticky top-0">
+      <section className="bg-white sticky top-0">
         <MaxWidthWrapper className="h-screen flex items-center justify-center">
           <div className="grid grid-cols-2 gap-x-10">
             <div className="img">
@@ -41,7 +42,7 @@ const ScrollSection = () => {
           </div>
         </MaxWidthWrapper>
       </section>
-      <section className="bg-[--foreground] sticky top-0">
+      <section className="bg-white sticky top-0">
         <MaxWidthWrapper className="h-screen flex items-center justify-center">
           <div className="grid grid-cols-2 gap-x-10">
             <div className="content">
@@ -60,7 +61,7 @@ const ScrollSection = () => {
           </div>
         </MaxWidthWrapper>
       </section>
-      <section className="bg-[--foreground] sticky top-0">
+      <section className="bg-white sticky top-0">
         <MaxWidthWrapper className="h-screen flex items-center justify-center">
           <div className="grid grid-cols-2 gap-x-10">
             <div className="img">
