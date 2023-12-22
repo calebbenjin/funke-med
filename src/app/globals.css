@@ -97,6 +97,10 @@
   background: linear-gradient(45deg, rgb(72, 48, 85)  40%, rgb(93, 64, 109) 90%);
 }
 
+.bg-gradient {
+  background: linear-gradient(45deg, rgb(253, 248, 255)  40%, rgb(228, 177, 255) 90%);
+}
+
 
 .card-one-bg {
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.845),

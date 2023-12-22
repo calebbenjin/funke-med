@@ -31,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`relative h-full antialiased bg-[--primary] ${montserrat.variable} ${farsan.variable}`}>
+        className={`relative h-full antialiased ${montserrat.variable} ${farsan.variable}`}>
         <main className="realtive flex flex-col min-h-screen">
           <Navbar />
           <div className="flex-grow flex-1">{children}</div>

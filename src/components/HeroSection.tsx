@@ -26,9 +26,6 @@ const Hero = () => {
               className="text-4xl main-font tracking-tight text-[--accent] font-bold lg:text-6xl md:text-4xl"
               // repeat={Infinity}
             />
-            {/* <h1 className="text-4xl main-font tracking-tight text-[--accent] font-bold lg:text-6xl md:text-4xl ">
-              Empowering Seamless Clinical Documentation
-            </h1> */}
             <p className="sm:mt-8 mt-4 sm:text-xl sub-font text-md mr-auto max-w-prose text-[--accent] ">
               The economic impact of burnout extends beyond the individual and
               organizational realms, affecting both turnover and productivity.
@@ -39,6 +36,7 @@ const Hero = () => {
           </div>
           <div className="hero-content flex items-center sm:justify-end justify-center sm:space-x-4 space-x-4">
             <Image
+              data-aos="zoom-in-left"
               src={heroImg1}
               alt="hero-image"
               width={1000}
