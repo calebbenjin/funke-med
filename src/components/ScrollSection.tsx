@@ -8,74 +8,62 @@ import img3 from "/public/iStock-1300457522.jpg";
 const ScrollSection = () => {
   return (
     <div className="relative">
-      <section className="bg-[--background] sticky top-0">
-        <MaxWidthWrapper className="h-screen flex pt-20">
-          <h1></h1>
-          <h1 className="text-[--foreground] main-font text-2xl text-center leading-normal ">
-            Cohexa stands out in the landscape of healthcare technology
-            providers with our emphasis on ambient clinical recording. Our
-            system seamlessly integrates spoken interactions into electronic
-            health records in real time, providing healthcare professionals with
-            an unparalleled level of efficiency and accuracy in medical
-            diagnostics and treatment. By reducing administrative tasks, we help
-            mitigate factors contributing to physician burnout, leading to a
-            more positive work environment and better patient outcomes.
-          </h1>
+      <section className="sticky top-0 slice-bg py-40">
+        <MaxWidthWrapper className="flex items-center px-20 justify-center">
+          <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-20">
+            <div className="content flex items-center justify-center ">
+              <h1
+                data-aos="fade-up-right"
+                className="text-white text-4xl font-semibold ">
+                Cohexa AI note dictation system is pivotal in meticulously
+                documenting patient discussions.
+              </h1>
+            </div>
+            <div
+              className="img rounded-[4rem] relative"
+              data-aos="fade-up-left">
+              <Image src={img1} alt="img" className="rounded-[4rem]" />
+            </div>
+          </div>
         </MaxWidthWrapper>
       </section>
-      <section className="bg-white sticky top-0">
-        <MaxWidthWrapper className="h-screen flex items-center justify-center">
-          <div className="grid grid-cols-2 gap-x-10">
-            <div className="img">
-              <Image src={img1} alt="img" />
+      <section className="sticky top-0 slice-bg py-40">
+        <MaxWidthWrapper className="flex items-center px-20 justify-center">
+          <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-20">
+            <div
+              data-aos="fade-up-right"
+              className="img rounded-[4rem] relative">
+              <Image src={img1} alt="img" className="rounded-[4rem]" />
             </div>
-            <div className="content">
-              <h1 className="text-[--background] text-xl leading-normal ">
+            <div className="content flex items-center justify-center ">
+              <h1
+                data-aos="fade-up-left"
+                className="text-white text-4xl font-semibold ">
                 Cohexa AI note dictation system is pivotal in meticulously
-                documenting patient discussions, and ensuring the integrity of
-                medical records. By minimizing the risk of errors, it actively
-                safeguards patient care. This precision not only fortifies the
-                foundation of healthcare but also enhances decision-making for
-                professionals, empowering them with accurate information.
+                documenting patient discussions.
               </h1>
             </div>
           </div>
         </MaxWidthWrapper>
       </section>
-      <section className="bg-white sticky top-0">
-        <MaxWidthWrapper className="h-screen flex items-center justify-center">
-          <div className="grid grid-cols-2 gap-x-10">
-            <div className="content">
-              <h1 className="text-[--background] text-xl leading-normal ">
+      <section className="sticky top-0 slice-bg py-40">
+        <MaxWidthWrapper className="flex items-center px-20 justify-center">
+          <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1  gap-20">
+            <div className="content flex items-center justify-center ">
+              <h1
+                data-aos="fade-up-right"
+                className="text-white text-4xl font-semibold ">
                 Cohexa AI note dictation system is pivotal in meticulously
-                documenting patient discussions, and ensuring the integrity of
-                medical records. By minimizing the risk of errors, it actively
-                safeguards patient care. This precision not only fortifies the
-                foundation of healthcare but also enhances decision-making for
-                professionals, empowering them with accurate information.
+                documenting patient discussions.
               </h1>
             </div>
-            <div className="img">
-              <Image src={img2} alt="img" />
-            </div>
-          </div>
-        </MaxWidthWrapper>
-      </section>
-      <section className="bg-white sticky top-0">
-        <MaxWidthWrapper className="h-screen flex items-center justify-center">
-          <div className="grid grid-cols-2 gap-x-10">
-            <div className="img">
-              <Image src={img3} alt="img" />
-            </div>
-            <div className="content">
-              <h1 className="text-[--background] text-3xl leading-normal ">
-                Cohexa AI note dictation system is pivotal in meticulously
-                documenting patient discussions, and ensuring the integrity of
-                medical records. By minimizing the risk of errors, it actively
-                safeguards patient care. This precision not only fortifies the
-                foundation of healthcare but also enhances decision-making for
-                professionals, empowering them with accurate information.
-              </h1>
+            <div className="img rounded-[4rem] relative">
+              <Image
+                data-aos="fade-up-right"
+                src={img1}
+                alt="img"
+                className="rounded-[4rem]"
+              />
             </div>
           </div>
         </MaxWidthWrapper>

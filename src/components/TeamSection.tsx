@@ -6,7 +6,7 @@ import { ImQuotesLeft } from "react-icons/im";
 
 const TeamSection = () => {
   return (
-    <section className="teambg-gradient">
+    <section className="teambg-gradient py-40">
       <MaxWidthWrapper>
         <div className="text-left mx-auto">
           <p className="text-2xl text-orange-500 ">Our Leadership</p>

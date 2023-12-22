@@ -4,6 +4,8 @@ import Link from "next/link";
 import { Button } from "./ui/button";
 import LogoImg from "/public/logo.png";
 import Image from "next/image";
+import appleStoreImg from "/public/appstore.png";
+import googleStoreImg from "/public/googleplay.png";
 
 const Footer = () => {
   return (
@@ -21,37 +23,49 @@ const Footer = () => {
                 className="w-40"
               />
             </Link>
+            <div className="flex">
+              <div className="btns flex items-center lg:justify-start justify-center space-x-4">
+                <a href="/">
+                  <Image
+                    src={appleStoreImg}
+                    alt="Apple Store"
+                    width={100}
+                    height={100}
+                    priority
+                  />
+                </a>
+                <a
+                  target="_blank"
+                  href="/">
+                  <Image
+                    src={googleStoreImg}
+                    alt="Apple Store"
+                    width={100}
+                    height={100}
+                    priority
+                  />
+                </a>
+              </div>
+            </div>
           </div>
           <div className="nav-content mt-10">
             <nav className="lg:flex lg:flex-row text-[--primary] lg:items-center lg:justify-between items-start lg:space-x-6 lg:space-y-0 space-y-6 flex flex-col">
-              <Link
-                href="/"
-                className="lg:text-md text-md transition-all ">
+              <Link href="/" className="lg:text-md text-md transition-all ">
                 Resources
               </Link>
-              <Link
-                href="/"
-                className="lg:text-md text-md transition-all ">
+              <Link href="/" className="lg:text-md text-md transition-all ">
                 Publication
               </Link>
-              <Link
-                href="/"
-                className="lg:text-md text-md transition-all ">
+              <Link href="/" className="lg:text-md text-md transition-all ">
                 Press
               </Link>
-              <Link
-                href="/"
-                className="lg:text-md text-md transition-all ">
+              <Link href="/" className="lg:text-md text-md transition-all ">
                 Contact us
               </Link>
-              <Link
-                href="/"
-                className="lg:text-md text-md transition-all ">
+              <Link href="/" className="lg:text-md text-md transition-all ">
                 Careers
               </Link>
-              <Link
-                href="/"
-                className="lg:text-md text-md transition-all ">
+              <Link href="/" className="lg:text-md text-md transition-all ">
                 Socials
               </Link>
             </nav>

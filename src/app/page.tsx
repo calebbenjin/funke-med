@@ -7,11 +7,11 @@ import MissionSection from "@/components/MissionSection";
 import TeamSection from "@/components/TeamSection";
 import SecuritySection from "@/components/SecuritySection";
 import ScrollSection from "@/components/ScrollSection";
-import SeenSection from "@/components/SeenSection";
 import AboutSection from "@/components/AboutSection";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import FutureSection from "@/components/FutureSection";
 
 export default function Home() {
   useEffect(() => {
@@ -21,14 +21,14 @@ export default function Home() {
     <main>
       <HeroSection />
       <AboutSection />
-      {/* <SeenSection /> */}
-      {/* <ScrollSection /> */}
+      {/* <FutureSection /> */}
+      <ScrollSection />
       {/* <AnimationSection /> */}
       {/* <StatementSection /> */}
       {/* <ProductSection /> Remove */}
       {/* <MissionSection /> Go to about page */}
       <TeamSection />
-      {/* <SecuritySection /> */}
+      <SecuritySection />
     </main>
   );
 }
