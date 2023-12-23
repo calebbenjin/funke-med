@@ -4,6 +4,7 @@
 
 html {
   scroll-behavior: smooth;
+  /* font-family: var(--font-montserrat); */
 }
 
 .main-font {
@@ -11,11 +12,12 @@ html {
 }
 
 .sub-font {
-  font-family: var(--font-farsan);
+  font-family: var(--font-poppins);
 }
 
 .bg-primary {
   background: #fff;
+  font-family: var(--font-poppins);
 }
 
 

@@ -9,8 +9,8 @@ const AboutSection = () => {
         <div className="text-center mx-auto pb-10">
           <h1
             data-aos="zoom-in-up"
-            className="text-3xl tracking-tight text-zinc-900 lg:text-6xl md:text-4xl ">
-            About COHEXA.
+            className=" sub-font text-3xl tracking-tight text-zinc-900 lg:text-6xl md:text-4xl ">
+            <em className="main-font">About</em> COHEXA.
           </h1>
         </div>
         <TypeAnimation

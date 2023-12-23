@@ -4,6 +4,12 @@ import { cn } from "@/lib/utils";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Montserrat, Farsan } from "next/font/google";
+import localFont from "next/font/local";
+
+const STIX = localFont({
+  src: "./static-fonts/STIXTwoText-Regular.ttf",
+  variable: "--font-STIX",
+});
 
 export const montserrat = Montserrat({
   subsets: ["latin"],

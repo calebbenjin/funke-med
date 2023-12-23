@@ -12,20 +12,13 @@ const ScrollSection = () => {
         <MaxWidthWrapper className="flex items-center px-20 justify-center">
           <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-20">
             <div className="content flex items-center justify-center ">
-              <h1
-                data-aos-delay="10"
-                data-aos-duration="500"
-                data-aos="fade-up-right"
-                className="text-white text-4xl font-semibold ">
-                Cohexa AI note dictation system is pivotal in meticulously
-                documenting patient discussions.
+              <h1 className=" sub-font text-white text-4xl font-semibold ">
+                Based on a nationally representative survey, the average doctor
+                spends 8.7 hours per week (16.6% of working hours) on clinical
+                documentation.
               </h1>
             </div>
-            <div
-              className="img rounded-[4rem] relative"
-              data-aos-delay="10"
-              data-aos-duration="200"
-              data-aos="fade-up-left">
+            <div className="img rounded-[4rem] relative">
               <Image src={img1} alt="img" className="rounded-[4rem]" />
             </div>
           </div>
@@ -34,19 +27,15 @@ const ScrollSection = () => {
       <section className="sticky top-0 slice-bg py-40">
         <MaxWidthWrapper className="flex items-center px-20 justify-center">
           <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-20">
-            <div
-              data-aos-delay="10"
-              data-aos-duration="200"
-              data-aos="fade-up-right"
-              className="img rounded-[4rem] relative">
+            <div className="img rounded-[4rem] relative">
               <Image src={img2} alt="img" className="rounded-[4rem]" />
             </div>
             <div className="content flex items-center justify-center ">
-              <h1
-                data-aos="fade-up-left"
-                className="text-white text-4xl font-semibold ">
-                Cohexa AI note dictation system is pivotal in meticulously
-                documenting patient discussions.
+              <h1 className="sub-font text-white text-4xl font-semibold ">
+                Our system seamlessly integrates spoken interactions into
+                electronic health records in real-time, providing healthcare
+                professionals with an unparalleled level of efficiency and
+                accuracy in medical diagnostics and treatment.
               </h1>
             </div>
           </div>
@@ -56,24 +45,15 @@ const ScrollSection = () => {
         <MaxWidthWrapper className="flex items-center px-20 justify-center">
           <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1  gap-20">
             <div className="content flex items-center justify-center ">
-              <h1
-                data-aos-delay="10"
-                data-aos-duration="200"
-                data-aos="fade-up-right"
-                className="text-white text-4xl font-semibold ">
-                Cohexa AI note dictation system is pivotal in meticulously
-                documenting patient discussions.
+              <h1 className="sub-font text-white text-4xl font-semibold ">
+                Note bloat, a growing issue in clinical documentation denotes
+                reduced clinical value due to excessive documentation. It not
+                only diminishes documentation quality but also burdens
+                clinicians when reading, potentially introducing errors.
               </h1>
             </div>
             <div className="img rounded-[4rem] relative">
-              <Image
-                data-aos-delay="10"
-                data-aos-duration="200"
-                data-aos="fade-up-right"
-                src={img3}
-                alt="img"
-                className="rounded-[4rem]"
-              />
+              <Image src={img3} alt="img" className="rounded-[4rem]" />
             </div>
           </div>
         </MaxWidthWrapper>

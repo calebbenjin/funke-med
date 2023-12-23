@@ -23,10 +23,10 @@ const Hero = () => {
               wrapper="span"
               speed={50}
               // style={{ fontSize: "3em", display: "inline-block" }}
-              className="text-4xl main-font tracking-tight text-[--accent] font-bold lg:text-6xl md:text-4xl"
+              className="text-4xl sub-font lg:leading-tight tracking-tight text-white font-bold lg:text-5xl md:text-4xl"
               // repeat={Infinity}
             />
-            <p className="sm:mt-8 mt-4 sm:text-xl sub-font text-md mr-auto max-w-prose text-[--accent] ">
+            <p className="sm:mt-8 mt-4 sm:text-xl sub-font text-md mr-auto max-w-prose text-white ">
               The economic impact of burnout extends beyond the individual and
               organizational realms, affecting both turnover and productivity.
             </p>

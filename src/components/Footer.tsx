@@ -53,19 +53,19 @@ const Footer = () => {
               <Link href="/" className="lg:text-md text-md transition-all ">
                 Resources
               </Link>
-              <Link href="/" className="lg:text-md text-md transition-all ">
+              <Link href="/" className="lg:text-md text-lg transition-all ">
                 Publication
               </Link>
-              <Link href="/" className="lg:text-md text-md transition-all ">
+              <Link href="/" className="lg:text-md text-lg transition-all ">
                 Press
               </Link>
-              <Link href="/" className="lg:text-md text-md transition-all ">
+              <Link href="/" className="lg:text-md text-lg transition-all ">
                 Contact us
               </Link>
-              <Link href="/" className="lg:text-md text-md transition-all ">
+              <Link href="/" className="lg:text-md text-lg transition-all ">
                 Careers
               </Link>
-              <Link href="/" className="lg:text-md text-md transition-all ">
+              <Link href="/" className="lg:text-md text-lg transition-all ">
                 Socials
               </Link>
             </nav>

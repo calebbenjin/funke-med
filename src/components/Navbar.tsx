@@ -47,6 +47,11 @@ export default function Navbar() {
             About
           </Link>
           <Link
+            href="#team-section"
+            className="text-md leading-6 text-zinc-900 font-semibold">
+            Our Team
+          </Link>
+          <Link
             href="#contact-section"
             className="text-md leading-6 text-zinc-900 font-semibold">
             Contact us
