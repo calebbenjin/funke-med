@@ -1,6 +1,6 @@
 import React from "react";
 import MaxWidthWrapper from "./MaxWidthWrapper";
-import secureImg from "/public/security.svg";
+import secureImg from "/public/iStock-1401491636.jpg";
 import secureImg1 from "/public/security2.svg";
 import secureImg2 from "/public/security3.svg";
 import Image from "next/image";
@@ -16,40 +16,59 @@ const SecuritySection = () => {
         </div>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 lg:mt-40 mt-10">
           <div className="card text-center">
-            <div className="icon h-40 w-40 mx-auto rounded-full">
-              <Image src={secureImg} alt="img-1" />
+            <div className="icon mx-auto rounded-full">
+              <Image
+                src={secureImg}
+                alt="img-1"
+                width="250"
+                height="400"
+                className="mx-auto"
+              />
             </div>
             <div className="content p-6">
               <h2 className="my-4 text-3xl">HIPAA Compliant</h2>
               <p>
-                DeepScribe AI technology is 100% HIPAA compliant and all
-                employees are HIPAA certified, ensuring your practice maintains
-                high levels of patient privacy.
+                At Cohexa, our AI technology boasts 100% HIPAA compliance,
+                incorporating multiple layers of technical and security
+                measures. Data encryption removes all personally identifiable
+                information, enhancing privacy and security measures.
               </p>
             </div>
           </div>
           <div className="card text-center">
-            <div className="icon h-40 w-40 mx-auto rounded-full">
-              <Image src={secureImg1} alt="img-1" />
+            <div className="icon mx-auto rounded-full">
+              <Image
+                src={secureImg1}
+                alt="img-1"
+                width="150"
+                height="400"
+                className="mx-auto"
+              />
             </div>
             <div className="content p-6">
-              <h2 className="my-4 text-3xl">End to End Encryption</h2>
+              <h2 className="my-4 text-3xl">Data Encryption</h2>
               <p>
-                All data captured during a visit and processed by DeepScribe is
-                encrypted using end-to-end AES-256 technology.
+                Cohexa utilizes 256-bit encryption to protect the transfer of
+                data between your browser and our servers.
               </p>
             </div>
           </div>
           <div className="card text-center">
-            <div className="icon h-40 w-40 mx-auto rounded-full">
-              <Image src={secureImg2} alt="img-1" />
+            <div className="icon mx-auto rounded-full">
+              <Image
+                src={secureImg2}
+                alt="img-1"
+                width="150"
+                height="400"
+                className="mx-auto"
+              />
             </div>
             <div className="content p-6">
-              <h2 className="my-4 text-3xl">HIPAA Compliant</h2>
+              <h2 className="my-4 text-3xl">Secure Cloud Storage</h2>
               <p>
-                Encrypted data is stripped of all personally identifiable
-                information, helping ensure patient information can’t be
-                associated with an individual.
+                Cohexa ensures the secure storage and processing of data within
+                reputable, US-based data centers, meeting stringent security and
+                availability standards
               </p>
             </div>
           </div>

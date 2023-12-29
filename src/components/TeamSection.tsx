@@ -20,26 +20,32 @@ const TeamSection = () => {
             Meet the team behind COHEXA.
           </h1>
         </div>
-        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 lg:pb-20 pb-20 pt-20">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 lg:pb-20 pb-20 pt-20 pl-10 ">
           <div
             data-aos-delay="10"
             data-aos-duration="1000"
             data-aos="zoom-out-down"
             className="team-card">
-            <div className="relative bg-white overflow-hidden border-4 border-zinc-800 rounded-2xl">
-              <Image src={funkeImg} alt="funke-alabi" />
-              <div className="hidden-content bg-[#483055] text-white p-6 absolute top-0 bottom-0 left-0 ">
-                <ImQuotesLeft className="text-8xl text-orange-400" />
-                <p className="text-2xl">
-                  I am on a mission to empower physicians and patients.
-                </p>
+            <div className="relative mx-auto bg-white h-80 w-80 overflow-hidden border-4 border-zinc-800 rounded-full">
+              <Image
+                src={funkeImg}
+                alt="funke-alabi"
+                className="rounded-full h-80 w-80"
+              />
+              <div className="hidden-content flex items-center justify-center bg-[#483055] text-white p-8 absolute top-0 bottom-0 left-0 ">
+                <div>
+                  <ImQuotesLeft className="text-6xl text-orange-400" />
+                  <p className="text-xl">
+                    I am on a mission to empower physicians and patients.
+                  </p>
+                </div>
               </div>
             </div>
-            <div>
-              <h1 className="font-extrabold text-4xl mt-4 text-[--secondary]">
+            <div className="text-center">
+              <h1 className="font-extrabold text-2xl mt-4 text-[--secondary]">
                 Funke Alabi
               </h1>
-              <p className="mt-2">Founder/CEO</p>
+              <p className="mt-1">Founder/CEO</p>
             </div>
           </div>
           <div
@@ -47,21 +53,25 @@ const TeamSection = () => {
             data-aos-duration="1000"
             data-aos="zoom-out-down"
             className="team-card">
-            <div className="relative overflow-hidden border-4 border-zinc-800 rounded-2xl">
-              <Image src={amoseImg} alt="funke-alabi" />
-              <div className="hidden-content bg-[#483055] text-white p-6 absolute top-0 bottom-0 left-0 ">
-                <ImQuotesLeft className="text-8xl text-orange-400" />
-                <p className="text-2xl">
+            <div className="relative mx-auto overflow-hidden h-80 w-80 border-4 border-zinc-800 rounded-full">
+              <Image
+                src={amoseImg}
+                alt="funke-alabi"
+                className="rounded-full h-80 w-80"
+              />
+              <div className="hidden-content bg-[#483055] text-white p-8 absolute top-0 bottom-0 left-0 ">
+                <ImQuotesLeft className="text-6xl text-orange-400" />
+                <p className="text-xl">
                   I joined Cohexa to make healthcare innovation synonymous with
                   empowerment and well-being.
                 </p>
               </div>
             </div>
-            <div>
-              <h1 className="font-extrabold text-4xl mt-4 text-[--secondary]">
+            <div className="text-center">
+              <h1 className="font-extrabold text-2xl mt-4 text-[--secondary]">
                 Onyeka Omose
               </h1>
-              <p className="mt-2">Co-Founder & CHRO</p>
+              <p className="mt-1">Co-Founder & CHRO</p>
             </div>
           </div>
           <div
@@ -69,23 +79,27 @@ const TeamSection = () => {
             data-aos-duration="1000"
             data-aos="zoom-out-down"
             className="team-card">
-            <div className="relative bg-white overflow-hidden border-4 border-zinc-800 rounded-2xl">
+            <div className="relative mx-auto bg-white h-80 w-80 overflow-hidden border-4 border-zinc-800 rounded-full">
               <div className="">
-                <Image src={ayoImg} alt="funke-alabi" />
+                <Image
+                  src={ayoImg}
+                  alt="funke-alabi"
+                  className="rounded-full h-80 w-80"
+                />
               </div>
-              <div className="hidden-content bg-[#483055] text-white p-6 absolute top-0 bottom-0 left-0 ">
-                <ImQuotesLeft className="text-8xl text-orange-400" />
-                <p className="text-2xl">
+              <div className="hidden-content bg-[#483055] text-white p-8 absolute top-0 bottom-0 left-0 ">
+                <ImQuotesLeft className="text-6xl text-orange-400" />
+                <p className="text-xl">
                   As an African-built health tech tool, our &quot;why&quot;
                   reflects the type of technical work we do at Cohexa AI.
                 </p>
               </div>
             </div>
-            <div>
-              <h1 className="font-extrabold text-4xl mt-4 text-[--secondary]">
+            <div className="text-center">
+              <h1 className="font-extrabold text-2xl mt-4 text-[--secondary]">
                 Ayo Alfonso
               </h1>
-              <p className="mt-2">Technical Advisor</p>
+              <p className="mt-1">Technical Advisor</p>
             </div>
           </div>
         </div>

@@ -8,6 +8,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import ContactSection from "@/components/ContactSection";
+import FutureSection from "@/components/FutureSection";
+import ProductSection from "@/components/ProductSection";
 
 export default function Home() {
   useEffect(() => {
@@ -18,8 +20,10 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <ScrollSection />
+      <ProductSection />
       <TeamSection />
-      <ContactSection />
+      <FutureSection />
+      {/* <ContactSection /> */}
       <SecuritySection />
     </main>
   );

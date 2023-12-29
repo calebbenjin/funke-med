@@ -124,6 +124,16 @@ html {
 }
 
 
+.aboutHeroBg {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.845),
+        rgba(0, 0, 0, 0)), url('/iStock-1446451643.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  width: 100%;
+}
+
+
 
 .card-one-bg {
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.845),

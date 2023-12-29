@@ -52,7 +52,7 @@ export default function Navbar() {
             Our Team
           </Link>
           <Link
-            href="#contact-section"
+            href="/contact"
             className="text-md leading-6 text-zinc-900 font-semibold">
             Contact us
           </Link>

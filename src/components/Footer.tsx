@@ -6,6 +6,8 @@ import LogoImg from "/public/logo.png";
 import Image from "next/image";
 import appleStoreImg from "/public/appstore.png";
 import googleStoreImg from "/public/googleplay.png";
+import { FaFacebook, FaInstagramSquare, FaLinkedin } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -34,9 +36,7 @@ const Footer = () => {
                     priority
                   />
                 </a>
-                <a
-                  target="_blank"
-                  href="/">
+                <a target="_blank" href="/">
                   <Image
                     src={googleStoreImg}
                     alt="Apple Store"
@@ -53,22 +53,27 @@ const Footer = () => {
               <Link href="/" className="lg:text-md text-md transition-all ">
                 Resources
               </Link>
-              <Link href="/" className="lg:text-md text-lg transition-all ">
-                Publication
-              </Link>
-              <Link href="/" className="lg:text-md text-lg transition-all ">
-                Press
-              </Link>
-              <Link href="/" className="lg:text-md text-lg transition-all ">
+              <Link href="/" className="lg:text-sm text-lg transition-all ">
                 Contact us
               </Link>
-              <Link href="/" className="lg:text-md text-lg transition-all ">
+              <Link href="/" className="lg:text-sm text-lg transition-all ">
                 Careers
               </Link>
-              <Link href="/" className="lg:text-md text-lg transition-all ">
-                Socials
-              </Link>
             </nav>
+            <div className="flex gap-10 mt-4">
+              <Link href="/" className="lg:text-sm text-lg transition-all ">
+                <FaFacebook className="text-3xl text-[--secondary] " />
+              </Link>
+              <Link href="/" className="lg:text-sm text-lg transition-all ">
+                <FaXTwitter className="text-3xl text-[--secondary] " />
+              </Link>
+              <Link href="/" className="lg:text-sm text-lg transition-all ">
+                <FaInstagramSquare className="text-3xl text-[--secondary] " />
+              </Link>
+              <Link href="/" className="lg:text-sm text-lg transition-all ">
+                <FaLinkedin className="text-3xl text-[--secondary] " />
+              </Link>
+            </div>
           </div>
         </div>
         <div className="flex pt-4">
