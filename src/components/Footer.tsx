@@ -1,13 +1,12 @@
 import React from "react";
 import MaxWidthWrapper from "./MaxWidthWrapper";
 import Link from "next/link";
-import { Button } from "./ui/button";
 import LogoImg from "/public/logo.png";
 import Image from "next/image";
 import appleStoreImg from "/public/appstore.png";
 import googleStoreImg from "/public/googleplay.png";
-import { FaFacebook, FaInstagramSquare, FaLinkedin } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaMedium, FaLinkedin, FaGithub } from "react-icons/fa";
+import { SiCrunchbase } from "react-icons/si";
 
 const Footer = () => {
   return (
@@ -61,16 +60,24 @@ const Footer = () => {
               </Link>
             </nav>
             <div className="flex gap-10 mt-4">
-              <Link href="/" className="lg:text-sm text-lg transition-all ">
-                <FaFacebook className="text-3xl text-[--secondary] " />
+              <Link
+                href="https://medium.com/funkealabi"
+                className="lg:text-sm text-lg transition-all ">
+                <FaMedium className="text-3xl text-[--secondary] " />
               </Link>
-              <Link href="/" className="lg:text-sm text-lg transition-all ">
-                <FaXTwitter className="text-3xl text-[--secondary] " />
+              <Link
+                href="https://www.crunchbase.com/organization/cohexa"
+                className="lg:text-sm text-lg transition-all ">
+                <SiCrunchbase className="text-3xl text-[--secondary] " />
               </Link>
-              <Link href="/" className="lg:text-sm text-lg transition-all ">
-                <FaInstagramSquare className="text-3xl text-[--secondary] " />
+              <Link
+                href="https://github.com/cohexa"
+                className="lg:text-sm text-lg transition-all ">
+                <FaGithub className="text-3xl text-[--secondary] " />
               </Link>
-              <Link href="/" className="lg:text-sm text-lg transition-all ">
+              <Link
+                href="https://www.linkedin.com/company/cohexa-ai/"
+                className="lg:text-sm text-lg transition-all ">
                 <FaLinkedin className="text-3xl text-[--secondary] " />
               </Link>
             </div>

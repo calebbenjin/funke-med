@@ -11,12 +11,16 @@ const ProductSection = () => {
       <section className=" hero-b lg:py-20 py-20">
         <MaxWidthWrapper>
           <div className="text-center mx-auto pt-10">
-            <h1 className="text-3xl tracking-tight lg:mb-10 mb-4 text-[--secondary] lg:text-5xl font-extrabold md:text-4xl ">
+            <h1
+              data-aos="fade-up"
+              className="text-3xl tracking-tight lg:mb-10 mb-4 text-[--secondary] lg:text-5xl font-extrabold md:text-4xl ">
               COHEXA is your Virtual AI-enabled Scribe
             </h1>
           </div>
           <div className="grid lg:grid-cols-1 md:grid-cols-2 grid-cols-1 gap-10 py-20">
-            <div className=" grid lg:grid-cols-2 grid-cols-1 gap-6 shadow-xl border rounded-xl">
+            <div
+              data-aos="fade-left"
+              className=" grid lg:grid-cols-2 grid-cols-1 gap-6 shadow-xl border rounded-xl">
               <div className="icon rounded-full">
                 <Image
                   src={serviceImg}
@@ -26,7 +30,9 @@ const ProductSection = () => {
                   className="rounded-l-2xl"
                 />
               </div>
-              <div className="content lg:pt-6 lg:pr-10 p-8 text-left">
+              <div
+                data-aos="fade-up"
+                className="content lg:pt-6 lg:pr-10 p-8 text-left">
                 <h2 className="lg:mt-8 mt-0 mb-8 text-3xl font-semibold">
                   Speech-to-Text Integration
                 </h2>
@@ -44,7 +50,9 @@ const ProductSection = () => {
                 </p>
               </div>
             </div>
-            <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 shadow-xl border rounded-xl">
+            <div
+              data-aos="fade-right"
+              className="grid lg:grid-cols-2 grid-cols-1 gap-6 shadow-xl border rounded-xl">
               <div className="icon rounded-full">
                 <Image
                   src={serviceImg1}
@@ -74,7 +82,9 @@ const ProductSection = () => {
                 </p>
               </div>
             </div>
-            <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 shadow-xl border rounded-xl">
+            <div
+              data-aos="fade-left"
+              className="grid lg:grid-cols-2 grid-cols-1 gap-6 shadow-xl border rounded-xl">
               <div className="icon rounded-full">
                 <Image
                   src={serviceImg2}

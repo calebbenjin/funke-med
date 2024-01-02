@@ -9,11 +9,8 @@ const ContactPage = () => {
         <div className="mx-auto w-full max-w-screen-xl px-6 pt-20">
           <div className="flex justify-start items-start w-full">
             <div className="text-left flex-col py-20">
-              <p className="text-left font-semibold text-white mb-4">
-                About us
-              </p>
               <h1 className="text-4xl font-bold tracking-tight text-white lg:text-6xl md:text-4xl ">
-                About Cohexa.
+                Contact Cohexa.
               </h1>
               <p className="sm:mt-8 mt-4 sm:text-lg text-md sm:w-80 w-full text-white ">
                 The economic impact of burnout extends beyond the individual and

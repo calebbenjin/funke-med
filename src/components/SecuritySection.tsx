@@ -1,8 +1,8 @@
 import React from "react";
 import MaxWidthWrapper from "./MaxWidthWrapper";
 import secureImg from "/public/iStock-1401491636.jpg";
-import secureImg1 from "/public/security2.svg";
-import secureImg2 from "/public/security3.svg";
+import secureImg1 from "/public/security2.png";
+import secureImg2 from "/public/security3.png";
 import Image from "next/image";
 
 const SecuritySection = () => {
@@ -15,7 +15,7 @@ const SecuritySection = () => {
           </h1>
         </div>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 lg:mt-40 mt-10">
-          <div className="card text-center">
+          <div data-aos="fade-up" className="card text-center">
             <div className="icon mx-auto rounded-full">
               <Image
                 src={secureImg}
@@ -35,7 +35,7 @@ const SecuritySection = () => {
               </p>
             </div>
           </div>
-          <div className="card text-center">
+          <div data-aos="fade-up" className="card text-center">
             <div className="icon mx-auto rounded-full">
               <Image
                 src={secureImg1}
@@ -53,7 +53,7 @@ const SecuritySection = () => {
               </p>
             </div>
           </div>
-          <div className="card text-center">
+          <div data-aos="fade-up" className="card text-center">
             <div className="icon mx-auto rounded-full">
               <Image
                 src={secureImg2}
